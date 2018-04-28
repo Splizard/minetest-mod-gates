@@ -109,7 +109,7 @@ function gates.register_gate(name, def, open, closed)
 					elseif node.name == name_open then
 						close_gate(lpos, lnode)
 					end
-				else nodeupdate(lpos)
+				else
 					break
 				end
 			end
