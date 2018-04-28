@@ -127,6 +127,7 @@ gates.register_gate('gates_wooden:classic', {
 minetest.register_craft({
     output = '"gates_wooden:classic" 2',
     recipe = {
+		{"default:stick", "default:wood", "default:stick"},
         {"default:stick", "default:wood", "default:stick"},
         {"default:stick", "default:wood", "default:stick"},
     },
