@@ -42,8 +42,6 @@ gates = {}
 
 function gates.register_gate(name, def, open, closed)
 	if name ~= nil then
-		if mode == nil then mode = "on_punch" end
-		
 		--Creates two nodes, open and closed node
 		for i,v in pairs(def) do open[i] = v end
 		
