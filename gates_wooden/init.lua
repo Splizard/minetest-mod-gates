@@ -16,7 +16,7 @@ gates.register_gate('gates_wooden:long', {
 			{-0.9, -0.25, -0.1, 0.9, 0.25, 0.1},
 		},
 	},
-	tile_images = {'default_wood.png'},
+	tiles = {'default_wood.png'},
 	sunlight_propagates = true,
     paramtype = "light",
     open_on_rightclick = true
@@ -53,7 +53,7 @@ gates.register_gate('gates_wooden:short', {
 			{-0.5, -0.5, -0.06, 0.5, 0.5, 0.06},
 		},
 	},
-	tile_images = {'default_wood.png'},
+	tiles = {'default_wood.png'},
 	--sunlight_propagates = true,
     paramtype = "light",
     open_on_rightclick = true,
@@ -103,7 +103,7 @@ gates.register_gate('gates_wooden:classic', {
     sunlight_propagates = true,
     paramtype = "light",
     visual_scale = 1.5,
-	tile_images = {'gate_wooden_open.png'},
+	tiles = {'gate_wooden_open.png'},
 	walkable = false,
 	selection_box = {
 		type = "fixed",
@@ -116,7 +116,7 @@ gates.register_gate('gates_wooden:classic', {
 	},
 },
 {
-	tile_images = {'gate_wooden_top.png','gate_wooden_top.png','gate_wooden.png'},
+	tiles = {'gate_wooden_top.png','gate_wooden_top.png','gate_wooden.png'},
 	walkable = true,
 })
 
