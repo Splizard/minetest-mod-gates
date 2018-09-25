@@ -21,14 +21,14 @@
 -- {
 --     #open gate options go here
 --
---     tile_images = {'open_gate.png'}, 
+--     tiles = {'open_gate.png'}, 
 --	   walkable = false,
 --     drawtype = "plantlike",
 -- },
 -- {
 --     #closed gate options go here
 --
---     tile_images = {'closed_gate_top.png','closed_gate_bottom.png','closed_gate_sides.png'}, 
+--     tiles = {'closed_gate_top.png','closed_gate_bottom.png','closed_gate_sides.png'}, 
 --	   walkable = true,
 -- },
 -- })
